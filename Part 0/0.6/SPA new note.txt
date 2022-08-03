@@ -1,0 +1,11 @@
+title SPA new note
+
+note over Browser:
+The js-code push the new note into
+an array of notes and renders to display
+and send a POST request to server with 
+the new note
+end note
+
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server-->Browser: {message: "note created"}
